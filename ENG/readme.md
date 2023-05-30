@@ -1,4 +1,7 @@
-General info
+https://moodle.lut.fi/course/view.php?id=17030
+
+## General info
+
 CT60A4160 Fundamentals of Software Testing
 
 **General Description**
