@@ -63,7 +63,7 @@ Describe all the test you have conducted
 |ID|	Tester|	Feature being tested	|Testing approach and type	|Test result|	
 |:-|:-|:-|:-|:-|
 |F-1|	N.N.| Printing of a ticket | Black-box test, System test	|Pass| 
-||||||
+
 					
 **Non-functional test**
 
