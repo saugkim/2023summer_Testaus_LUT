@@ -1,4 +1,5 @@
-
+https://docs.google.com/document/d/1EzVmI-kuSWb4qLVwJ01xKBD63dv55BSm/edit?usp=sharing&ouid=111274102849551070120&rtpof=true&sd=true.
+ 
 Introduction  
 Points proposal  
 Testing strategy  
