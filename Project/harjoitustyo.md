@@ -48,3 +48,67 @@ Seuraavan taulukon pisteytys on vain osviittaa antava. Voitte ryhmässä laittaa
 |||
 |<Oma ominaisuus: kuvaile, miksi juuri tämä ominaisuus ja sen pisteytys tulisi hyväksyä>|n|
 
+<br>
+
+**Lista avoimen lähdekoodin projekteista**
+
+Alla on lista avoimen lähdekoodin projekteista, jotka voivat olla hyviä testattavaksi. Jokaisen ryhmän on tarkoitus testata eri projektia. Mikäli mikään listan projekteista ei tunnu sopivalta, heittäkää luennoitsijalle mailia ja ehdottakaa omaa. Aiheiden varauksessa on käytössä nopeammat syövät hitaat periaate.
+
+|Projekti|Tyyppi|Käytetyt ohjelmointikielet|Lisenssi|URL|
+|-|-|-|-|:-|
+|0 A.D.|Game|C++, JS|GPL2, CC-BY-SA|https://play0ad.com/|
+|Android-Jigsaw-Puzzle|Game|Java|Apache 2.0|https://github.com/julesbond007/android-jigsaw-puzzle|
+|Atom|Code editor|JS|MIT|https://atom.io/|
+|Audacity|Audio editor|C|GPL 2+|https://www.audacityteam.org/|
+|Blender|3D modeller|C, C++, Python|GPL 2+|https://www.blender.org/|
+|Django|Web framework|Python|BSD|https://www.djangoproject.com/|
+|DOSBox|Emulator|C++|GPL 2+|https://www.dosbox.com/|
+|Drupal|Content management system|PHP, JS|GPL2|https://www.drupal.org/|
+|excel-diff-checker|Excel diff checker(!)|Java|Apache 2.0|https://github.com/abhisheksarkar30/excel-diff-checker|
+|Faker|Fake data generator|PHP|MIT|https://github.com/fzaninotto/Faker|
+|FileZilla|FTP client|C++|GPL 2+|https://filezilla-project.org/|
+|FreeCAD|CAD tool|C++|LGPL 2+|https://www.freecad.org/|
+|Freeciv|Game|C|GPL 2+|http://www.freeciv.org/|
+|Firefox|Browser|C++ / Rust|MPL 2.0|https://www.mozilla.org/en-US/firefox/new/|
+|Gallery3|Image gallery|PHP|GPL2|https://github.com/bwdutton/gallery3|
+|Gif for cli|Funny tool|Python|Apache 2.0|https://github.com/google/gif-for-cli|
+|GIMP|Image edit|C|GPL v3.0|https://www.gimp.org/|
+|Godot|Game engine|C++|MIT|https://github.com/godotengine/godot|
+|Hexo|Blog framework|JS|“Free”|https://hexo.io/|
+|hget|Terminal tool|Go|MIT|https://github.com/huydx/hget|
+|Inkscape|Vector graphics|C++|GPLv3+|https://inkscape.org/|
+|Java-Cli-Table-Builder|Command line tool|Java|MIT|https://github.com/dmkyr20/Java-Cli-Table-Builder|
+|Kdenlive|Video editor|C++|GPLv.3+|https://kdenlive.org/en/|
+|Krita|Drawing tool|C++|GPLv.3+|https://krita.org/en/|
+|Laravel|PHP framework|PHP|MIT|https://laravel.com/|
+|Leaflet|Map framework|JS|BSD-2-Clause license|https://github.com/Leaflet/Leaflet|
+|libGDX|Game development framework|Java|Apache 2.0|https://libgdx.badlogicgames.com/|
+|LimeSurvey|Survey framework|PHP|GPL|http://limesurvey.org/|
+|Links|Browser|C|GPL 2+|http://links.twibright.com/|
+|MultiCraft|Game|Java|LGPLv3, CC-BY-SA 4.0|https://github.com/MultiCraft/MultiCraft|
+|Netbeans|IDE|Java|Apache 2.0|https://github.com/apache/netbeans|
+|Nginx|Web server|C|BSD-2-clause|https://nginx.org/|
+|Node.js|JS backend|C++, JS||https://github.com/nodejs/node|
+|OpenTTD|Game|C, C++|GPL2|https://www.openttd.org/|
+|Photon|Crawler|Python|GPL v3.0|https://github.com/s0md3v/Photon|
+|plotly|Interactive graphics|JS|MIT|https://plotly.com/|
+|Return to the Roots|Game|C++|GPL v3.0|https://www.siedler25.org/|
+|scikit-learn|Python module|Python|BSD|https://scikit-learn.org/|
+|Scribus|Publishing|C++|PD|https://www.scribus.net/|
+|Superset|Business intelligence|Python|Apache 2.0|https://github.com/apache/incubator-superset|
+|SuperTuxKart|Game|C++|GPL|https://supertuxkart.net/|
+|termui|Terminal dashboard|Go|MIT|https://github.com/gizak/termui|
+|The Fuck|Terminal tool|Python|MIT|https://github.com/nvbn/thefuck|
+|Vaadin|Web framewokr|Java| | http://vaadin.com/|
+|Visual studio code|Code/text editor|JS|MIT|https://code.visualstudio.com/|
+|Vue.js|JS framework|JS|MIT|https://github.com/vuejs/core|
+|wget|FTP/HTTP client|C|GPL 3+ |https://www.gnu.org/software/wget/|
+|Widelands|Game|C(++)|GPL|https://www.widelands.org/|
+|youtube-dl|Terminal tool|Python|Unlicense|https://github.com/ytdl-org/youtube-dl|
+|Yii2|PHP Framework|PHP|BSD|https://www.yiiframework.com/|
+|Zotero|Reference manager|JS|AGPL|https://www.zotero.org/|
+|Zulip|Chat application|Python|Apache 2.0|https://zulipchat.com/|
+
+
+
+
