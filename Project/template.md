@@ -1,4 +1,6 @@
 https://docs.google.com/document/d/1EzVmI-kuSWb4qLVwJ01xKBD63dv55BSm/edit?usp=sharing&ouid=111274102849551070120&rtpof=true&sd=true.
+
+windows ps> youtube-dl -v https://www.youtube.com/watch?v=euq1xlR_cKI
  
 Introduction  
 Points proposal  
