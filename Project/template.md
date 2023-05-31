@@ -1,5 +1,16 @@
 https://docs.google.com/document/d/1EzVmI-kuSWb4qLVwJ01xKBD63dv55BSm/edit?usp=sharing&ouid=111274102849551070120&rtpof=true&sd=true.
 
+
+Problems met when installing process (windows)  
+
+1.Missing MSVCR100.dll
+
+<img src="https://github.com/saugkim/2023summer_Testaus_LUT/assets/25344978/fe090d7a-1954-4702-b6df-dbfe3ffc0792" width=350>
+
+solution -> The exe throws an error due to missing MSVCR100.dll
+
+To run the exe you need to install first the Microsoft Visual C++ 2010 Service Pack 1 Redistributable Package (x86) (https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x86.exe).
+
 https://github.com/ytdl-patched/youtube-dl/releases
 
 for windows: https://github.com/ytdl-patched/youtube-dl/releases/download/2023.05.31.43044/youtube-dl.exe
