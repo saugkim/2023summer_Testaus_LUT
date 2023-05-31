@@ -1,7 +1,39 @@
 https://docs.google.com/document/d/1EzVmI-kuSWb4qLVwJ01xKBD63dv55BSm/edit?usp=sharing&ouid=111274102849551070120&rtpof=true&sd=true.
 
-windows ps> youtube-dl -v https://www.youtube.com/watch?v=euq1xlR_cKI
- 
+https://github.com/ytdl-patched/youtube-dl/releases
+
+for windows: https://github.com/ytdl-patched/youtube-dl/releases/download/2023.05.31.43044/youtube-dl.exe
+
+PS> youtube-dl -v https://www.youtube.com/watch?v=euq1xlR_cKI
+
+for ubunutu: https://github.com/ytdl-patched/youtube-dl/releases/download/2023.05.31.43044/youtube-dl 
+
+```
+ugkim@kim:~$ sudo wget https://github.com/ytdl-patched/youtube-dl/releases/download/2023.05.31.43044/youtube-dl -O /usr/local/bin/youtube-dl
+ugkim@kim:~$ sudo chmod a+rx /usr/local/bin/youtube-dl
+ugkim@kim:~$ sudo ln -s /usr/bin/python3 /usr/bin/python
+ugkim@kim:~$ youtube-dl -v https://www.youtube.com/watch?v=euq1xlR_cKI
+
+[debug] System config: []
+[debug] User config: []
+[debug] Custom config: []
+[debug] Command-line args: ['-v', 'https://www.youtube.com/watch?v=euq1xlR_cKI']
+[debug] Encodings: locale UTF-8, fs utf-8, out utf-8, pref UTF-8
+[debug] youtube-dl version 2023.05.31.43044 (single file build)
+** This build is unofficial daily builds, provided for ease of use.
+** Please do not ask for any support.
+[debug] Python 3.10.6 (CPython x86_64 64bit) - Linux-5.15.0-71-generic-x86_64-with-glibc2.35 - OpenSSL 3.0.2 15 Mar 2022 - glibc 2.35
+[debug] exe versions: none
+[debug] Proxy map: {}
+[youtube] euq1xlR_cKI: Downloading webpage
+[debug] [youtube] Decrypted nsig E2mmR3AgyRyQH2sBVk => QocR0tzNPSteCQ
+[debug] [youtube] Decrypted nsig 5BmADnC_Bhe2J_MIpQ => w_pjUExnxyl1uw
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://rr4---sn-ixh7rn76.googlevideo.com/videoplayback?expire=1685562699&ei=61B3ZMiwLYrGyAWwyobYCg&ip=86.115.0.76&id=o-ACiCBpaO1Q2PKFjOP5n1Duzye_iJ_CwG7KZFMF7cyQRs&itag=22&source=youtube&requiressl=yes&mh=1Z&mm=31%2C26&mn=sn-ixh7rn76%2Csn-5go7ynld&ms=au%2Conr&mv=m&mvi=4&pl=18&initcwndbps=1540000&vprv=1&svpuc=1&mime=video%2Fmp4&ns=26JJwbFAPXnS2sX_ErQEi-YN&cnr=14&ratebypass=yes&dur=2174.154&lmt=1662125272928470&mt=1685540944&fvip=3&fexp=24007246%2C24363393&c=WEB&txp=6218224&n=w_pjUExnxyl1uw&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Csvpuc%2Cmime%2Cns%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAOREHdqmUD93XotZm8pehS2cM8t2bqcivz73KguBGQPiAiEAzZT9xmMgLdAWB8wGlU4uACZ00anBXoIVR0l-siYaQTw%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIgey4lqzo0DRvvPAbLofl901Bz46q_ttErfs4b2w-1BxQCIQDps9EERAMB4zPZJMkmAjNoehOcPWwnGEskLXnBYCRiaQ%3D%3D'
+[download] Johdanto ohjelmistotestaukseen-euq1xlR_cKI.mp4 has already been downloaded
+[download] 100% of 62.46MiB
+```
+
 Introduction  
 Points proposal  
 Testing strategy  
