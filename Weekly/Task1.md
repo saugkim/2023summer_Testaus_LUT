@@ -83,6 +83,7 @@ With what environment (OS, Java version) it was produced:
 
 To get the point at least 5 problems (of any kind!!!) have to be found.
 
+
 ```
 Name of the bug: unhandling invalid user input - out of range
 
@@ -106,7 +107,7 @@ User input 0 should terminate the program immediately, but it add 0 to the grade
 Name of the bug: wrong average from wrong divisor 
 
 How it is produced: when user write valid number several times, but to terminate user should input "0", 0 is included into the list, total sum remains as same(adding 0) but size of the grades list is wrong, 0 should be not there. 
-
+```
 
 
 Name of the bug: unhandling empty list, ending program when there is no input 
