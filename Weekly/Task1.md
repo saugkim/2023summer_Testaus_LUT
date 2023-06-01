@@ -74,9 +74,8 @@ T1-3.zip avaantuu NetBeanssillä ja testaus-1-3.zip on myötämielisempi VS Code
 How many bugs can you find from the program provided here? The attached zip is a simple java program – you can import it to e.g. VS Code or Netbeans and run.
 
 
-```
 Describe all the bugs you found. 
-
+```
 Name of the bug:
 
 How it is produced:
@@ -110,7 +109,6 @@ User input 0 should terminate the program immediately, but it add 0 to the grade
 Name of the bug: wrong average from wrong divisor 
 
 How it is produced: when user write valid number several times, but to terminate user should input "0", 0 is included into the list, total sum remains as same(adding 0) but size of the grades list is wrong, 0 should be not there. 
-```
 
 
 Name of the bug: unhandling empty list, ending program when there is no input 
