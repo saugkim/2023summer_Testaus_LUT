@@ -72,3 +72,22 @@ Do not modify the program itself, but write tests to cover the specification. Do
 + It is not considered good if same test is run with slight modifications (such as input “AA” an “AB”)
 
 Return your solution as an exported zip-file.
+
+### Tehtävä 3-4 / Task 3-4
+
+**Testivetoinen kehitys (1 piste)**
+
+Kirjoita yksikkötestit seuraavan ongelmakuvauksen pohjalta. Sinun ei tarvitse kirjoittaa itse ohjelmaa(Starship), vaan ainoastaan testit (StarshipTest).
+
+"Kirjoita luokkaa Starship. Sen tulee sisältää käytössä oleva määrä nestemäistä happea ja nestemäistä metaania (maksimiarvot hapelle 800 000 kg ja metaanille 400 000 kg), tilaa hyötykuormalle ja lukumäärä kyydissä oleville astronauteille. Tämän lisäksi aluksen tulee kyetä liitämään ilmassa, irtautua kantoraketista ja käynnistää laskeutuminen moottoreilla, mikäli vähintään 10% polttoaineesta on vielä jäljellä. Kaikki määritellyt attribuutit tulee olla saavutettavissa julkisten rajapintojen kautta. Metodit palauttavat 0, mikäli tehtävä onnistuu ja virhekoodin (0-32000), mikäli virheitä sattuu."
+
+Palauta ratkaisusi zip-tiedostona, jossa on koko projekti.
+
+
+**Test-driven development (1 point)**
+
+Write unit tests for the following description. You don’t need to write the actual program, but to exercise test-driven development.
+
+“Build a class called Starship. It should include the available amount of liquid oxygen (LOX) and methane (max values being 800 000 kg for LOX and 400 000 kg for methane), a place for various cargo packets, number of humans aboard, way to do skydiving, detaching from booster rocket and start landing burn if there is still more than 10% of fuel left. All the specified variables should be accessible through public interface. And methods return 0, when they have been carried out their task or error code (1-32000) if not.”
+
+Return your solution as an exported zip-file.
