@@ -33,6 +33,33 @@ Write at least 20 good tests and you get 2 points.
 
 By good it is meant that the tests are different and make sense.
 
+```
+**Functional testing**
+
+Testing the UI and Visual Elements
+
+Test1: unit tests: any implemented feature (click or touch event) 
+Test2: integration tests: moodle-sisu-mail
+
+**Non-functional testing**
+
+Testing for Cross-Compatibility With Browsers, Operating Systems and Mobile Devices
+
+Test3: independecy on Operating system - windows, mac, ubuntu, android, i-
+Test4: independency on screen size - pc, notebook, phone, tablet
+Test5: independency on web browser - should work major web browser like chrome, safari, 
+
+Testing for performance and loading speed
+
+Test4: accessbility
+
+Test5: stress testing -24/7
+
+7. Testing for web security
+Test6: safety privacy?? how
+
+Test7: authentifaction
+
 
 
 **Tehtävä 1-3 / Task 1-3**
