@@ -44,7 +44,32 @@ https://github.com/ytdl-patched/youtube-dl/releases
 https://github.com/ytdl-patched/youtube-dl/releases/download/2023.05.31.43044/youtube-dl.exe
 
 
-testing download playlist 
+<br>
+
+3.Download from google drive with official version
+
+```
+C:\Users\ugkim\Downloads>youtube-dl -v https://drive.google.com/file/d/1c2BBrnoSPfJHPWzpM_g10hMsrjHkRLCx/view?usp=sharing
+[debug] System config: []
+[debug] User config: []
+[debug] Custom config: []
+[debug] Command-line args: ['-v', 'https://drive.google.com/file/d/1c2BBrnoSPfJHPWzpM_g10hMsrjHkRLCx/view?usp=sharing']
+[debug] Encodings: locale cp1252, fs mbcs, out cp437, pref cp1252
+[debug] youtube-dl version 2021.12.17
+[debug] Python version 3.4.4 (CPython) - Windows-10-10.0.22621
+[debug] exe versions: none
+[debug] Proxy map: {}
+[GoogleDrive] 1c2BBrnoSPfJHPWzpM_g10hMsrjHkRLCx: Downloading webpage
+[GoogleDrive] 1c2BBrnoSPfJHPWzpM_g10hMsrjHkRLCx: Requesting source file
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://doc-08-3k-docs.googleusercontent.com/docs/securesc/ck9v139f62e37h1904926j00bbatuu23/38oo9q09crfmc19cj278q9eeiu3j6kld/1685644275000/10520634967081956801/04520491552648920243Z/1c2BBrnoSPfJHPWzpM_g10hMsrjHkRLCx?e=download&uuid=4602e728-fe44-47be-9a61-cd5cd21d975e&nonce=t0nttejvi4t0e&user=04520491552648920243Z&hash=l8a03u4dbaj306b1ifvbb42i3rr4qqu1'
+[download] Destination: 2023-04-13 18-39-04.mp4-1c2BBrnoSPfJHPWzpM_g10hMsrjHkRLCx.mp4
+[download] 100% of 1.06MiB in 00:00
+```
+
+
+4.testing download playlist 
+
 ```
 C:\Users\ugkim\LUT\TEMPforTesting> youtube-dl -v --download-archive archive.txt "https://www.youtube.com/playlist?list=PLnTwHjNdV-XD6C9dRlQKF3idHDXztv6TB"
 ```
