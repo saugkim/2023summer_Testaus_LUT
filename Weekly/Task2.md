@@ -14,7 +14,8 @@ Luokan tulee sisältää vähintään seuraavat ominaisuudet:
 ```
 Muuntaa Marsin aika Maan aikaan ja päinvastoin
 Antaa arvio, koska alus saapuu Marsiin/Maahan
-Antaa arvio kuinka pitkän laskeumisen alus voi tehdä ennen polttoaineen loppumista (molemmilla planeetoilla, huomaa eri painovoima)
+Antaa arvio kuinka pitkän laskeumisen alus voi tehdä ennen polttoaineen loppumista 
+(molemmilla planeetoilla, huomaa eri painovoima)
 Etäisyys molempiin planeettoihin
 Molempien planeettojen painovoima
 Antaa arvio kuinka suurelle kosmiselle säteilylle astronautti altistuu matkan aikana
@@ -40,7 +41,8 @@ Convert Martian time to Earth time and vice versa
 
 Give an estimate when the ship arrives to Mars/Earth
 
-Give an estimate on how long landing ship can make until it runs out fuel (on both planets)
+Give an estimate on how long landing ship can make until it runs out fuel 
+(on both planets)
 
 Distance from/to both planets
 
