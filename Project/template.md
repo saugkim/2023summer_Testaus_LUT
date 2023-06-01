@@ -44,7 +44,10 @@ https://github.com/ytdl-patched/youtube-dl/releases
 https://github.com/ytdl-patched/youtube-dl/releases/download/2023.05.31.43044/youtube-dl.exe
 
 
-
+testing download playlist 
+```
+C:\Users\ugkim\LUT\TEMPforTesting> youtube-dl -v --download-archive archive.txt "https://www.youtube.com/playlist?list=PLnTwHjNdV-XD6C9dRlQKF3idHDXztv6TB"
+```
 
 ### Ubuntu-server (ISO ubuntu-22.04.2-live-server-amd64 on VirtualBox)
 
