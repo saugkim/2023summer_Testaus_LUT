@@ -33,6 +33,7 @@ Write at least 20 good tests and you get 2 points.
 
 By good it is meant that the tests are different and make sense.
 
+
 ```
 **Functional testing**
 
@@ -49,12 +50,13 @@ Test7. testing web security - regulation web data security & privacy policies
 Test8. testing usability - user experience, ui elements are well visible?
 Test9. testing availability - 24/7 
 Test10: testing scalability - how many users can connect to server at the same time?
-
+```
 
 
 **Tehtävä 1-3 / Task 1-3**
 
 Kuinka monta bugia pystyt löytämään liitteenä olevasta yksinkertaisesta Java-ohjelmasta? Voit ajaa ohjelman esim. VS Codella tai Netbeanssilla. Huomaa, että sinulla täytyy olla 
+
 ```
 Kuvaa löytämäsi bugit. 
 
@@ -70,6 +72,7 @@ Pisteen saavuttamiseen täytyy raportoida ainakin 5 (mitä tahansa) bugia.
 T1-3.zip avaantuu NetBeanssillä ja testaus-1-3.zip on myötämielisempi VS Codelle.
 
 How many bugs can you find from the program provided here? The attached zip is a simple java program – you can import it to e.g. VS Code or Netbeans and run.
+
 
 ```
 Describe all the bugs you found. 
