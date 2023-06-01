@@ -71,7 +71,36 @@ C:\Users\ugkim\Downloads>youtube-dl -v https://drive.google.com/file/d/1c2BBrnoS
 [download] 100% of 1.06MiB in 00:00
 ```
 
+5.testing from one-drive not working looks
 
+https://unioulu-my.sharepoint.com/:v:/g/personal/ykim20_student_oulu_fi1/Eao8fb3ZKM1Dj2le9LtK7moB_oEMEYWY3CI5ZAr_RwpZ5w?e=laN75z
+
+```
+C:\Users\ugkim\Downloads\youtubeDL>youtube-dl -v https://unioulu-my.sharepoint.com/:v:/g/personal/ykim20_student_oulu_fi1/Eao8fb3ZKM1Dj2le9LtK7moB_oEMEYWY3CI5ZAr_RwpZ5w?e=laN75z
+[debug] System config: []
+[debug] User config: []
+[debug] Custom config: []
+[debug] Command-line args: ['-v', 'https://unioulu-my.sharepoint.com/:v:/g/personal/ykim20_student_oulu_fi1/Eao8fb3ZKM1Dj2le9LtK7moB_oEMEYWY3CI5ZAr_RwpZ5w?e=laN75z']
+[debug] Encodings: locale cp1252, fs mbcs, out cp437, pref cp1252
+[debug] youtube-dl version 2021.12.17
+[debug] Python version 3.4.4 (CPython) - Windows-10-10.0.22621
+[debug] exe versions: none
+[debug] Proxy map: {}
+[generic] Eao8fb3ZKM1Dj2le9LtK7moB_oEMEYWY3CI5ZAr_RwpZ5w?e=laN75z: Requesting header
+[redirect] Following redirect to https://unioulu-my.sharepoint.com/personal/ykim20_student_oulu_fi1/_layouts/15/stream.aspx?id=%2Fpersonal%2Fykim20%5Fstudent%5Foulu%5Ffi1%2FDocuments%2F2023%2D03%2D22%5Fweek9%2Emp4&ga=1
+[generic] stream: Requesting header
+WARNING: Falling back on generic information extractor.
+[generic] stream: Downloading webpage
+[generic] stream: Extracting information
+ERROR: Unsupported URL: https://unioulu-my.sharepoint.com/personal/ykim20_student_oulu_fi1/_layouts/15/stream.aspx?id=%2Fpersonal%2Fykim20%5Fstudent%5Foulu%5Ffi1%2FDocuments%2F2023%2D03%2D22%5Fweek9%2Emp4&ga=1
+Traceback (most recent call last):
+  File "C:\Users\dst\AppData\Roaming\Build archive\youtube-dl\ytdl-org\tmpupik7c6w\build\youtube_dl\YoutubeDL.py", line 815, in wrapper
+  File "C:\Users\dst\AppData\Roaming\Build archive\youtube-dl\ytdl-org\tmpupik7c6w\build\youtube_dl\YoutubeDL.py", line 836, in __extract_info
+  File "C:\Users\dst\AppData\Roaming\Build archive\youtube-dl\ytdl-org\tmpupik7c6w\build\youtube_dl\extractor\common.py", line 534, in extract
+  File "C:\Users\dst\AppData\Roaming\Build archive\youtube-dl\ytdl-org\tmpupik7c6w\build\youtube_dl\extractor\generic.py", line 3489, in _real_extract
+youtube_dl.utils.UnsupportedError: Unsupported URL: https://unioulu-my.sharepoint.com/personal/ykim20_student_oulu_fi1/_layouts/15/stream.aspx?id=%2Fpersonal%2Fykim20%5Fstudent%5Foulu%5Ffi1%2FDocuments%2F2023%2D03%2D22%5Fweek9%2Emp4&ga=1
+
+```
 4.testing download playlist 
 
 ```
