@@ -1,9 +1,10 @@
 https://docs.google.com/document/d/1EzVmI-kuSWb4qLVwJ01xKBD63dv55BSm/edit?usp=sharing&ouid=111274102849551070120&rtpof=true&sd=true.
 
+### OS Windows 
 
-Problems met when installing process (windows)  
+1.Problem when installing process 
 
-1.Missing MSVCR100.dll
+**Missing MSVCR100.dll**
 
 <img src="https://github.com/saugkim/2023summer_Testaus_LUT/assets/25344978/fe090d7a-1954-4702-b6df-dbfe3ffc0792" width=350>
 
@@ -11,13 +12,44 @@ solution -> The exe throws an error due to missing MSVCR100.dll
 
 To run the exe you need to install first the Microsoft Visual C++ 2010 Service Pack 1 Redistributable Package (x86) (https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x86.exe).
 
+
+2.Problem when downloading youtube video (valid link) using official latest version
+
+```
+C:\Users\ugkim\Downloads> youtube-dl -v https://www.youtube.com/watch?v=euq1xlR_cKI
+[debug] System config: []
+[debug] User config: []
+[debug] Custom config: []
+[debug] Command-line args: ['-v', 'https://www.youtube.com/watch?v=euq1xlR_cKI']
+[debug] Encodings: locale cp1252, fs mbcs, out cp437, pref cp1252
+[debug] youtube-dl version 2021.12.17
+[debug] Python version 3.4.4 (CPython) - Windows-10-10.0.22621
+[debug] exe versions: none
+[debug] Proxy map: {}
+[youtube] euq1xlR_cKI: Downloading webpage
+ERROR: Unable to extract uploader id; please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; type  youtube-dl -U  to update. Be sure to call youtube-dl with the --verbose flag and include its complete output.
+Traceback (most recent call last):
+  File "C:\Users\dst\AppData\Roaming\Build archive\youtube-dl\ytdl-org\tmpupik7c6w\build\youtube_dl\YoutubeDL.py", line 815, in wrapper
+  File "C:\Users\dst\AppData\Roaming\Build archive\youtube-dl\ytdl-org\tmpupik7c6w\build\youtube_dl\YoutubeDL.py", line 836, in __extract_info
+  File "C:\Users\dst\AppData\Roaming\Build archive\youtube-dl\ytdl-org\tmpupik7c6w\build\youtube_dl\extractor\common.py", line 534, in extract
+  File "C:\Users\dst\AppData\Roaming\Build archive\youtube-dl\ytdl-org\tmpupik7c6w\build\youtube_dl\extractor\youtube.py", line 1794, in _real_extract
+  File "C:\Users\dst\AppData\Roaming\Build archive\youtube-dl\ytdl-org\tmpupik7c6w\build\youtube_dl\extractor\common.py", line 1012, in _search_regex
+youtube_dl.utils.RegexNotFoundError: Unable to extract uploader id; please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; type  youtube-dl -U  to update. Be sure to call youtube-dl with the --verbose flag and include its complete output.
+```
+
+solution --> download unofficial version updated by ytdl-patched  
+
 https://github.com/ytdl-patched/youtube-dl/releases
 
-for windows: https://github.com/ytdl-patched/youtube-dl/releases/download/2023.05.31.43044/youtube-dl.exe
+https://github.com/ytdl-patched/youtube-dl/releases/download/2023.05.31.43044/youtube-dl.exe
 
-PS> youtube-dl -v https://www.youtube.com/watch?v=euq1xlR_cKI
+
+
+
+### Ubuntu-server (ISO ubuntu-22.04.2-live-server-amd64 on VirtualBox)
 
 for ubunutu: https://github.com/ytdl-patched/youtube-dl/releases/download/2023.05.31.43044/youtube-dl 
+
 
 ```
 ugkim@kim:~$ sudo wget https://github.com/ytdl-patched/youtube-dl/releases/download/2023.05.31.43044/youtube-dl -O /usr/local/bin/youtube-dl
@@ -44,6 +76,13 @@ ugkim@kim:~$ youtube-dl -v https://www.youtube.com/watch?v=euq1xlR_cKI
 [download] Johdanto ohjelmistotestaukseen-euq1xlR_cKI.mp4 has already been downloaded
 [download] 100% of 62.46MiB
 ```
+
+download into specific folder
+```
+youtube-dl -o '/foldername/%(playlist_title)s/%(playlist_index)s_%(title)s.%(ext)s'
+```
+
+### Report 
 
 Introduction  
 Points proposal  
