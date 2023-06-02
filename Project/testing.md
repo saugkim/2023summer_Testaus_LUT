@@ -1,15 +1,18 @@
 **report**  
-
 https://docs.google.com/document/d/1EzVmI-kuSWb4qLVwJ01xKBD63dv55BSm/edit?usp=sharing&ouid=111274102849551070120&rtpof=true&sd=true.
 
 
 **about youtube-dl from debian**  
-
 https://manpages.debian.org/testing/youtube-dl/youtube-dl.1.en.html
 
 
+tip: download into specific folder
+```
+youtube-dl -o '/foldername/%(playlist_title)s/%(playlist_index)s_%(title)s.%(ext)s'
+```
 
-### Tesiing OS Windows 
+
+## Testing OS Windows 
 
 1.Problem when installing process 
 
@@ -106,13 +109,14 @@ Traceback (most recent call last):
 youtube_dl.utils.UnsupportedError: Unsupported URL: https://unioulu-my.sharepoint.com/personal/ykim20_student_oulu_fi1/_layouts/15/stream.aspx?id=%2Fpersonal%2Fykim20%5Fstudent%5Foulu%5Ffi1%2FDocuments%2F2023%2D03%2D22%5Fweek9%2Emp4&ga=1
 
 ```
-4.testing download playlist 
+4.Downloading youtube playlist 
 
 ```
 C:\Users\ugkim\LUT\TEMPforTesting> youtube-dl -v --download-archive archive.txt "https://www.youtube.com/playlist?list=PLnTwHjNdV-XD6C9dRlQKF3idHDXztv6TB"
 ```
 
-### Ubuntu-server (ISO ubuntu-22.04.2-live-server-amd64 on VirtualBox)
+
+## Ubuntu-server (ISO ubuntu-22.04.2-live-server-amd64 on VirtualBox)
 
 for ubunutu: https://github.com/ytdl-patched/youtube-dl/releases/download/2023.05.31.43044/youtube-dl 
 
@@ -143,10 +147,6 @@ ugkim@kim:~$ youtube-dl -v https://www.youtube.com/watch?v=euq1xlR_cKI
 [download] 100% of 62.46MiB
 ```
 
-download into specific folder
-```
-youtube-dl -o '/foldername/%(playlist_title)s/%(playlist_index)s_%(title)s.%(ext)s'
-```
 
 ## Content of REPORT
 
