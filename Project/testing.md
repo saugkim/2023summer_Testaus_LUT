@@ -1,6 +1,3 @@
-**report**  
-https://docs.google.com/document/d/1EzVmI-kuSWb4qLVwJ01xKBD63dv55BSm/edit?usp=sharing&ouid=111274102849551070120&rtpof=true&sd=true.
-
 **about youtube-dl from debian**  
 https://manpages.debian.org/testing/youtube-dl/youtube-dl.1.en.html
 
