@@ -60,6 +60,17 @@ https://github.com/ytdl-patched/youtube-dl/releases/download/2023.05.31.43044/yo
 
 3.Downloading video from google drive (official version)
 
+Shared folder link:  
+https://drive.google.com/drive/folders/1ElTOFkI1w0HUc1csqr869M3ztyLvhluU?usp=drive_link
+
+Sample clips inside shared folder:  
+https://drive.google.com/file/d/1Dr_ModXMkxKoSmLGGaWsSGUQQWrqideh/view?usp=drive_link  
+https://drive.google.com/file/d/1c2BBrnoSPfJHPWzpM_g10hMsrjHkRLCx/view?usp=drive_link  
+https://drive.google.com/file/d/1eP4MCOKCjbWWsxEXxssrNQ7Fi3ZOy20Y/view?usp=drive_link  
+https://drive.google.com/file/d/1CfZezgKhuqwTQdYF8r-2GqhmG2UnQKS8/view?usp=drive_link  
+https://drive.google.com/file/d/1r3YI1Wd3kIVNoOhRDQCs1qouDguKbo9x/view?usp=drive_link  
+
+
 ```
 C:\Users\ugkim\Downloads>youtube-dl -v https://drive.google.com/file/d/1c2BBrnoSPfJHPWzpM_g10hMsrjHkRLCx/view?usp=sharing
 [debug] System config: []
