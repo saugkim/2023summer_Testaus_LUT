@@ -1,10 +1,15 @@
+**report**  
+
 https://docs.google.com/document/d/1EzVmI-kuSWb4qLVwJ01xKBD63dv55BSm/edit?usp=sharing&ouid=111274102849551070120&rtpof=true&sd=true.
+
+
+**about youtube-dl from debian**  
 
 https://manpages.debian.org/testing/youtube-dl/youtube-dl.1.en.html
 
 
 
-### OS Windows 
+### Tesiing OS Windows 
 
 1.Problem when installing process 
 
@@ -50,7 +55,7 @@ https://github.com/ytdl-patched/youtube-dl/releases/download/2023.05.31.43044/yo
 
 <br>
 
-3.Download from google drive with official version
+3.Downloading video from google drive (official version)
 
 ```
 C:\Users\ugkim\Downloads>youtube-dl -v https://drive.google.com/file/d/1c2BBrnoSPfJHPWzpM_g10hMsrjHkRLCx/view?usp=sharing
@@ -143,32 +148,15 @@ download into specific folder
 youtube-dl -o '/foldername/%(playlist_title)s/%(playlist_index)s_%(title)s.%(ext)s'
 ```
 
-### Report 
-
-Introduction  
-Points proposal  
-Testing strategy  
-Environment and test tools  
-Existing tests  
-Written tests    
-Test cases  
-Functional tests     	
-Non-functional test     	 
-Other tests  
-Bug report    
-Risks report  	  
-Conclusion  
- 
+## Content of REPORT
 
 ### Introduction
 
 Descriptive text of the course project and the project being tested
- 
 
 ### Points proposal
 
 Describe what tasks you have carried out and how many points you should get from each task
-
 
 ### Testing strategy
 
@@ -191,8 +179,7 @@ Describe also all the tools that were used when testing the software
  
 ### Existing tests
 
-Describe the existing test. 
-
+Describe the existing test.  
 Does the software have unit tests etc?
  
 ### Written tests
@@ -241,10 +228,7 @@ Describe all the test you have conducted
 
 ### Risks report
 
-Is the software ready to be used in production? 
-
-Why/why not? 
-
-How well was your testing? 
-
+Is the software ready to be used in production?  
+Why/why not?  
+How well was your testing?  
 What improvement would still be needed – for software and for testing?
