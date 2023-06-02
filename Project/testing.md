@@ -70,6 +70,24 @@ https://drive.google.com/file/d/1eP4MCOKCjbWWsxEXxssrNQ7Fi3ZOy20Y/view?usp=drive
 https://drive.google.com/file/d/1CfZezgKhuqwTQdYF8r-2GqhmG2UnQKS8/view?usp=drive_link  
 https://drive.google.com/file/d/1r3YI1Wd3kIVNoOhRDQCs1qouDguKbo9x/view?usp=drive_link  
 
+```
+C:\Users\ugkim\Downloads\youtubeDL>youtube-dl -v -o /folder/%(title)s https://drive.google.com/file/d/1Dr_ModXMkxKoSmLGGaWsSGUQQWrqideh/view?usp=drive_link
+[debug] System config: []
+[debug] User config: []
+[debug] Custom config: []
+[debug] Command-line args: ['-v', '-o', '/folder/%(title)s', 'https://drive.google.com/file/d/1Dr_ModXMkxKoSmLGGaWsSGUQQWrqideh/view?usp=drive_link']
+[debug] Encodings: locale cp1252, fs mbcs, out cp437, pref cp1252
+[debug] youtube-dl version 2021.12.17
+[debug] Python version 3.4.4 (CPython) - Windows-10-10.0.22621
+[debug] exe versions: none
+[debug] Proxy map: {}
+[GoogleDrive] 1Dr_ModXMkxKoSmLGGaWsSGUQQWrqideh: Downloading webpage
+[GoogleDrive] 1Dr_ModXMkxKoSmLGGaWsSGUQQWrqideh: Requesting source file
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://doc-04-90-docs.googleusercontent.com/docs/securesc/moe95i2469mlv4gmv57fbojaj1v3otrs/uo2kmc2579dtujebk9j8b23n1a6ba1j0/1685689875000/10520634967081956801/18315885394481095017Z/1Dr_ModXMkxKoSmLGGaWsSGUQQWrqideh?e=download&uuid=0027ee6b-e836-4296-b259-c25a5a1c8229&nonce=74to77lr7ijfi&user=18315885394481095017Z&hash=a1j79lp6neijas9cjcvblklha9vnj3ht'
+[download] Destination: folder\GdriveTest0322.mp4
+[download] 100% of 3.29MiB in 00:00
+```
 
 ```
 C:\Users\ugkim\Downloads>youtube-dl -v https://drive.google.com/file/d/1c2BBrnoSPfJHPWzpM_g10hMsrjHkRLCx/view?usp=sharing
