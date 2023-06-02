@@ -1,15 +1,20 @@
 **report**  
 https://docs.google.com/document/d/1EzVmI-kuSWb4qLVwJ01xKBD63dv55BSm/edit?usp=sharing&ouid=111274102849551070120&rtpof=true&sd=true.
 
-
 **about youtube-dl from debian**  
 https://manpages.debian.org/testing/youtube-dl/youtube-dl.1.en.html
+
+**Youtube-dl Tutorial With Examples For Beginners**  
+https://ostechnix.com/youtube-dl-tutorial-with-examples-for-beginners/
 
 
 tip: download into specific folder
 ```
 youtube-dl -o '/foldername/%(playlist_title)s/%(playlist_index)s_%(title)s.%(ext)s'
 ```
+
+**the list of all the supported sites**  
+https://ytdl-org.github.io/youtube-dl/supportedsites.html
 
 
 ## Testing OS Windows 
