@@ -56,6 +56,8 @@ Think carefully what kind of presentation would be best to describe the outcome.
 
 0, 1 or 2 points based on how sound is your solution.
 
+<img src="https://github.com/saugkim/2023summer_Testaus_LUT/assets/25344978/6784692b-9354-43db-95c5-813ad49d9abc" width=200>
+
 
 ### Tehtävä 2-2 / Task 2-2
 
