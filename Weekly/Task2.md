@@ -50,7 +50,7 @@ Think carefully what kind of presentation would be best to describe the outcome.
 
 0, 1 or 2 points based on how sound is your solution.
 
-<img src="https://github.com/saugkim/2023summer_Testaus_LUT/assets/25344978/e8ac41ea-8b07-493b-a7a4-e42618b1337b" width=250>
+<img src="https://github.com/saugkim/2023summer_Testaus_LUT/assets/25344978/905e792a-5c71-413f-8d39-570d8d60a2a1" width=250>
 
 
 ### Tehtävä 2-2 / Task 2-2
@@ -70,7 +70,6 @@ Think of the class designed in the first task. What kind of testing would you co
 
 0, 1 or 2 points based on how sound is your testing solution
 
-Unit-testing of all features
 ```
 Convert Martian time to Earth time and vice versa
 Give an estimate when the ship arrives to Mars/Earth
@@ -84,21 +83,25 @@ Give an estimate on how much radiation dosage traveller has experienced during t
 -position
 -velocity
 -fuel
--sourcePlanet
--destinationPlanet
-+convertTimeEarthToMars(time)
+-planetFrom : Planet
+-planetTo : Planet
+
++convertTimeEarthToMars(EarthTime)
 +convertTimeMarsToEarth(MarsTime)
-+getDistanceToDestination()
-+getDistanceFromSource()
-+getGravityExperienced(planet)
-+getEstimatedArrivalTime(dest)
-+calcuateTravelDurationTo(desti-planet)
-+calculateMaxTravelDistance(planet)
++getDistanceFromEarth(position)
++getDistanceFromMars(position)
++getGravityExperienced(position)
++getEstimatedArrivalTime(departureTime, planetTo)
++calculateMaxTravelDistance(currentFuel)
 +getAmountOfRadiationExposure()
 ```
 
-Testing will be performed by programmer who actually writes those code 
+Unit-testing of all implemented methods in this class
+
+Testing will be performed by programmer who actually writes the codes 
+
 Unit-testing 
+
 
 ### Tehtävä 2-3 / Task 2-3
 
