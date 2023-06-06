@@ -56,7 +56,7 @@ Think carefully what kind of presentation would be best to describe the outcome.
 
 0, 1 or 2 points based on how sound is your solution.
 
-<img src="https://github.com/saugkim/2023summer_Testaus_LUT/assets/25344978/6784692b-9354-43db-95c5-813ad49d9abc" width=200>
+<img src="https://github.com/saugkim/2023summer_Testaus_LUT/assets/25344978/e8ac41ea-8b07-493b-a7a4-e42618b1337b" width=250>
 
 
 ### Tehtävä 2-2 / Task 2-2
@@ -76,6 +76,35 @@ Think of the class designed in the first task. What kind of testing would you co
 
 0, 1 or 2 points based on how sound is your testing solution
 
+Unit-testing of all features
+```
+Convert Martian time to Earth time and vice versa
+Give an estimate when the ship arrives to Mars/Earth
+Give an estimate on how long landing ship can make until it runs out fuel (on both planets)
+Distance from/to both planets
+Give the amount of gravity experienced from both planets
+Give an estimate on how much radiation dosage traveller has experienced during the voyage
+```
+
+```
+-position
+-velocity
+-fuel
+-sourcePlanet
+-destinationPlanet
++convertTimeEarthToMars(time)
++convertTimeMarsToEarth(MarsTime)
++getDistanceToDestination()
++getDistanceFromSource()
++getGravityExperienced(planet)
++getEstimatedArrivalTime(dest)
++calcuateTravelDurationTo(desti-planet)
++calculateMaxTravelDistance(planet)
++getAmountOfRadiationExposure()
+```
+
+Testing will be performed by programmer who actually writes those code 
+Unit-testing 
 
 ### Tehtävä 2-3 / Task 2-3
 
@@ -91,4 +120,10 @@ Kirjoita lyhyt Java ohjelma, jolla testaat esimmäisessä tehtävässä suunnite
 Write a short Java program (actual code) to test the program (which you haven’t written yet!). You can implement testing methods (at least 3) by yourself.
 
 0 or 1 point  based on how sound is your code
+
+```
+1. Test of time convert (earthtime) 
+2. Estimated time to destination (current position) 
+3. Calculate gravity (position)
+```
 
