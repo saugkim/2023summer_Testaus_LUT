@@ -37,22 +37,16 @@ This is part of a program running on starships travelling between Mars and Earth
 The class should handle at least the following tasks:
 
 ```
-Convert Martian time to Earth time and vice versa
-
-Give an estimate when the ship arrives to Mars/Earth
-
-Give an estimate on how long landing ship can make until it runs out fuel 
+- Convert Martian time to Earth time and vice versa
+- Give an estimate when the ship arrives to Mars/Earth
+- Give an estimate on how long landing ship can make until it runs out fuel 
 (on both planets)
-
-Distance from/to both planets
-
-Give the amount of gravity experienced from both planets
-
-Give an estimate on how much radiation dosage traveller has experienced during the voyage
+- Distance from/to both planets
+- Give the amount of gravity experienced from both planets
+- Give an estimate on how much radiation dosage traveller has experienced 
+ during the voyage
 ```
-
 Think carefully what kind of presentation would be best to describe the outcome.
-
 
 0, 1 or 2 points based on how sound is your solution.
 
