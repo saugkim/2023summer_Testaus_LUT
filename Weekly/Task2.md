@@ -96,11 +96,11 @@ Give an estimate on how much radiation dosage traveller has experienced during t
 +getAmountOfRadiationExposure()
 ```
 
-Unit-testing of all implemented methods in this class
+Unit-testing of all implemented methods in this class To ensure the coding itself does not have mistakes
 
-Testing will be performed by programmer who actually writes the codes 
+Testing is done mainly by programmers/developers who writes the codes 
 
-Unit-testing 
+Unit-testing : lowest level of testing
 
 
 ### Tehtävä 2-3 / Task 2-3
