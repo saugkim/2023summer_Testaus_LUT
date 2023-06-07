@@ -14,6 +14,10 @@ Why is whitebox testing not a suitable approach for acceptance testing?
 
 Grading 0 or 1 based on the excellence of the answer
 
+-->
+White box testing is a testing method that a tester has full knowledge of the software being tested, including access to source code and design documents. This testing is performed at low-level phase (unit or module testing) and usually coding skills are required.
+On the other hand, acceptance testing is the last phase of the software testing process and is performed by customer(who does not need to understand the source code) to make decision about product. Therefore white-box testing is not suitable for the acceptance testing.
+
 
 ### Tehtävä 3-2 / Task 3-2
 
@@ -32,6 +36,8 @@ Why are non-functional tests harder to automate than functional ones?
 
 Grading 0 or 1 based on the excellence of the answer
 
+-->
+Some part of non-functionality might be tested automatically (availability? 24h, performace), but features related with subjective matters like usability, user experience, might not or cannot be tested automatically.
 
 
 ### Tehtävä 3-3 / Task 3-3
