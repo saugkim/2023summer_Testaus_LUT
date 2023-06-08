@@ -21,7 +21,7 @@ Maksimispisteet harjoitustyöstä on 30 (25 itse työstä, 5 vertaisarvioinnista
 Seuraavan taulukon pisteytys on vain osviittaa antava. Voitte ryhmässä laittaa myös muita pisteytysehdotuksia.
 
 |Ominaisuus|Maksimipisteet|
-|-|:-|
+|-|-:|
 |Hyvin kirjoitettu raportti|10|
 |Ei raporttia|-100|
 |Hyvin kirjoitettu raportti toisen ryhmän raportin testauksesta (vertaisarviointi on siis tehty huolella)|5|
