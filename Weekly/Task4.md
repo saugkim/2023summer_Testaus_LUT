@@ -1,7 +1,5 @@
 ### Tehtävä 4-1 / Task 4-1
 
-Palautettava viimeistään: maanantai, 31. heinäkuuta 2023, 23:59
-
 **Kuinka testata (2 pistettä)**
 
 Saat tehtäväksesi testata paikallisen pizzerian verkkosivut. Sivustolla on mahdollisuus käydä läpi tavallinen menu, rakentaa omavalintainen pizza ja ostaa pizzoja. Maksu onnistuu kaikenlaisilla verkkomaksuilla (ml. mobiilimaksut). Sivustolle tuotetaan myös videoblogia ja käyttäjä voi jättää pizzoihin kommentteja rekisteröidyttyään sivustolle. Joskus tarjolla on myös kilpailuja, joihin asiakkaat voivat osallistua. Asiakkaat voivat myös ehdottaa ja äänestää uusia pizzoja.
@@ -20,16 +18,17 @@ You got a task to test the local pizzeria website. The site has an option to go 
 
 You have no access to the server running the software and you don’t have any admin rights to the web site.
 
-
 What would you test? How would you document the testing process and test cases? Where would you focus on your testing? You have one a week time slot to do all the necessary tasks. Is that enough? Why/why not? What problems the setting has?
-
 
 Grading 0, 1 or 2 based on the excellence of the answer.
 
+```
+Functionality test:
+
+Non-functionality test:
+```
 
 ### Tehtävä 4-2 / Task 4-2
-
-Palautettava viimeistään: maanantai, 31. heinäkuuta 2023, 23:59
 
 **Yksikkötestit (2 pistettä)**
 
@@ -59,8 +58,6 @@ Return your solution as an exported zip-file.
 BMI-Calculator.zip BMI-Calculator.zip 26. syyskuuta 2022, 18:36
 
 ### Tehtävä 4-3 / Task 4-3
-
-Palautettava viimeistään: maanantai, 31. heinäkuuta 2023, 23:59
 
 **Testivetoinen kehitys (1 piste)**
 
