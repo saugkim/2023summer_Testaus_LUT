@@ -22,11 +22,51 @@ What would you test? How would you document the testing process and test cases? 
 
 Grading 0, 1 or 2 based on the excellence of the answer.
 
-```
-Functionality test:
 
-Non-functionality test:
+What would you test?  
+**Functionality test:**
 ```
+verify if there is no invalid pages or redirects. (including unvalidated Redirects and Forwards)
+ 
+check all the validations on each field if there is any user input. (including user inputs from registration and payment)
+
+verify the workflow of the system (searching menu, ordering and paying, participating event and so on).
+```
+**Non-functionality test:**
+
+```
+1. Usability testing - To verify how the application is easy to use with.
+
+  - Test the navigation and controls.
+  - Check the content (including typos, ingredients and prices)
+      -- Main page
+      -- search product, nearest pizza restaurant 
+      -- product page 
+      -- payment interface (to mobile pay)
+  
+2. Compatibility testing- Compatibility testing is performed based on the context of the application.
+  - Browser compatibility
+  - Operating system compatibility
+  - Compatible to various devices like notebook, mobile, tablets etc.
+
+3. Performance testing - verify the server response time
+  - Load testing : measure loading time (under various network connection) 
+
+4. Database testing - detail of account (name, address, phone number) and history of ordering and participating events, favorate manu
+```
+
+How would you document the testing process and test cases?   
+  - I will use some documentation tool (like jira) 
+  - create a report which contains full list of test cases, 
+  - each test case has id, date-time of conduct, tester, title and result (expected and actual)
+
+Where would you focus on your testing?  
+  - functionality test and usability test
+  
+You have one a week time slot to do all the necessary tasks. Is that enough? Why/why not? What problems the setting has?  
+  - considering the size of application(small and simple), the functionality test can be done with one week time window, but the non-functionality like performance test (stress, load testing) or security test will depend on number of testers(skilled or non-skilled) and/or devices working on it.  
+
+
 
 ### Tehtävä 4-2 / Task 4-2
 
