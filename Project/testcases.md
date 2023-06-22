@@ -8,8 +8,10 @@
 |F-2|Download all in the specific playlist test|
 |F-3|Rename downloaded video file test|
 |F-4|Download to the Specific folder test|
-|F-5||
-
+|F-5|Unsupported URL|
+|C-1|Install on Windows|
+|C-2|Install on Ubuntu|
+|||
 **Test reports**
 
 
