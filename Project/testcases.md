@@ -4,7 +4,11 @@
 
 |ID|Title|
 |:-|:-|
-|Function|TEST|
+| **Install TESTS** ||
+|I-1|on Windows 11|
+|I-2|on Ubuntu-server|
+|I-3|on MacOS|
+|**Functional TESTS**||
 |F-1|Download single video test|
 |F-2|Download all in the specific playlist test|
 |F-3|Rename downloaded video file test|
@@ -12,14 +16,10 @@
 |F-5|Unsupported URL|
 |F-6|Set size limit for videos|
 |F-7|Set download speed limit|
-|F-8||
-|F-9||
-|F-10||
-|Install|TESTS|
-|Install-1|on Windows 11|
-|Install-2|on Ubuntu-server|
-|Install-3|on MacOS|
-|Non-Functional|TESTS|
+|F-8|Download videos by date-wise|
+|F-9|Download specific videos from playlist|
+|F-10|Download videos by file extension|
+|**Non-Functional TESTS**||
 |NF-1|Availability -network|
 |NF-2|Performance test under wifi|
 |NF-3|Accessibility -screen reader|
