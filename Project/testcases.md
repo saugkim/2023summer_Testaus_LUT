@@ -44,7 +44,7 @@
 |B-2| ERROR: Unable to extract uploader id; with Official version download youtube video|
 |B-3| WARNING: [youtube] Unable to decode n-parameter: |
 |B-4| youtube_dl.utils.RegexNotFoundError:|
-|B-5||
+|B-5|YouTube: Signature extraction failed, KeyError QV.|
 
 
 B-3 WARNING: [youtube] Unable to decode n-parameter: download likely to be throttled (Unable to extract Initial JS player n function alias (Usa[0]); please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; type  youtube-dl -U  to update. Be sure to call youtube-dl with the --verbose flag and include its complete output. Traceback (most recent call last):
