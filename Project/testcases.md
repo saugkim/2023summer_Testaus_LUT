@@ -24,6 +24,7 @@
 |NF-2|Performance test under wifi|
 |NF-3|Accessibility -screen reader|
 |NF-4|Usability - get help |
+|NF-5|Compatibility - download videos from other than Youtube, other websites|
 
 
 
