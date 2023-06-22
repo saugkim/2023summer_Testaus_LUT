@@ -35,10 +35,10 @@
 
 |ID|Title|
 |:-|:-|
-|B-1||
-|B-2||
-|B-3||
-|B-4||
+|B-1|Run Error on windows|
+|B-2|Youtube-dl youtube video downloading fail|
+|B-3|ERROR: unable to open for writing: [Errno 36] File name too long|
+|B-4|Fix “Unable to download video data: HTTP Error 403: Forbidden” Error|
 |B-5||
 
 
