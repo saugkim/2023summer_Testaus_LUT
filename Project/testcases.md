@@ -21,7 +21,7 @@
 |NF-1|Availability -network|
 |NF-2|Performance test under wifi|
 |NF-3|Accessibility -screen reader|
-|NF-4|Usability ??? -help?|
+|NF-4|Usability - get help |
 
 
 
