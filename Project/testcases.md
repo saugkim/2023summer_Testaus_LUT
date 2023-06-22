@@ -4,6 +4,7 @@
 
 |ID|Title|
 |:-|:-|
+|Function|TEST|
 |F-1|Download single video test|
 |F-2|Download all in the specific playlist test|
 |F-3|Rename downloaded video file test|
@@ -14,10 +15,11 @@
 |F-8||
 |F-9||
 |F-10||
-|||
-|Install-1|Install on Windows|
-|Install-2|Install on Ubuntu|
-|||
+|Install|TESTS|
+|Install-1|on Windows 11|
+|Install-2|on Ubuntu-server|
+|Install-3|on MacOS|
+|Non-Functional|TESTS|
 |NF-1|Availability -network|
 |NF-2|Performance test under wifi|
 |NF-3|Accessibility -screen reader|
