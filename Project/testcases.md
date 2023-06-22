@@ -9,10 +9,23 @@
 |F-3|Rename downloaded video file test|
 |F-4|Download to the Specific folder test|
 |F-5|Unsupported URL|
-|C-1|Install on Windows|
-|C-2|Install on Ubuntu|
+|F-6|Set size limit for videos|
+|F-7|Set download speed limit|
+|F-8||
+|F-9||
+|F-10||
 |||
-**Test reports**
+|Install-1|Install on Windows|
+|Install-2|Install on Ubuntu|
+|||
+|NF-1|Availability -network|
+|NF-2|Performance test under wifi|
+|NF-3|Accessibility -screen reader|
+|NF-4|Usability ??? -help?|
+
+
+
+**Details reports**
 
 
 
