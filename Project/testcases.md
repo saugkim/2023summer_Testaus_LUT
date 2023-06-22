@@ -13,7 +13,7 @@
 |F-2|Download all in the specific playlist test|
 |F-3|Rename downloaded video file test|
 |F-4|Download to the Specific folder test|
-|F-5|Unsupported URL|
+|F-5|Pause and Resume downloads|
 |F-6|Set size limit for videos|
 |F-7|Set download speed limit|
 |F-8|Download videos by date-wise|
@@ -24,7 +24,7 @@
 |NF-2|Performance test under wifi|
 |NF-3|Accessibility -screen reader|
 |NF-4|Usability - get help |
-|NF-5|Compatibility - download videos from other than Youtube, other websites|
+|NF-5|Compatibility - download videos from other than Youtube, other websites: Supported URL test|
 
 
 
