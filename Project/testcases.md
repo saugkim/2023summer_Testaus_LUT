@@ -40,10 +40,10 @@
 
 |ID|Title|
 |:-|:-|
-|B-1|Error: Missing MSVCR100.dll - only on Windows|
+|B-1|ERROR: Missing MSVCR100.dll - only on Windows|
 |B-2|ERROR: Unable to extract uploader id;|
 |B-3|ERROR: unable to open for writing: [Errno 36] File name too long|
-|B-4|Fix “Unable to download video data: HTTP Error 403: Forbidden” Error|
+|B-4|Fix “Unable to download video data: HTTP Error 403: Forbidden” Error, https://www.youtube.com/watch?v=aGByQ7Ye_KI|
 |B-5||
 
 
