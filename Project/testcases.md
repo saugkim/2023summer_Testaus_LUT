@@ -29,11 +29,6 @@
 |NF-5|Compatibility - download videos from other than Youtube, other websites: Supported URL test|
 
 
-
-**Details reports**
-
-
-
 ## Bugs
 
 **List of bugs found**
@@ -65,7 +60,4 @@ KeyError: 'QV'
 B-5 ERROR: unable to download video data: HTTP Error 403: Forbidden
 'list' is not recognized as an internal or external command,
 operable program or batch file.
-
-
-**Bug report**
 
