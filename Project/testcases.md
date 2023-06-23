@@ -9,7 +9,6 @@
 |**Install**||
 |I-1|on Windows 11|
 |I-2|on Ubuntu-server|
-|I-3|on MacOS|
 |**Functional**||
 |F-1|Download single video|
 |F-2|Download all videos in the playlist|
