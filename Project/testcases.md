@@ -42,14 +42,30 @@
 |:-|:-|
 |B-1| ERROR: Missing MSVCR100.dll - only on Windows|
 |B-2| ERROR: Unable to extract uploader id; with Official version download youtube video|
-|B-3| WARNING: [youtube] Unable to decode n-parameter: |
-|B-4| youtube_dl.utils.RegexNotFoundError:|
-|B-5|YouTube: Signature extraction failed, KeyError QV.|
+|B-3| WARNING: [youtube] Unable to decode n-parameter: (youtube_dl.utils.RegexNotFoundError)|
+|B-4| YouTube: Signature extraction failed, KeyError QV.|
+|B-5| ERROR: unable to download video data: HTTP Error 403:|
 
 
-B-3 WARNING: [youtube] Unable to decode n-parameter: download likely to be throttled (Unable to extract Initial JS player n function alias (Usa[0]); please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; type  youtube-dl -U  to update. Be sure to call youtube-dl with the --verbose flag and include its complete output. Traceback (most recent call last):
+B-3 WARNING: [youtube] Unable to decode n-parameter: download likely to be throttled (Unable to extract Initial JS player n function alias (Usa[0]); please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; type  youtube-dl -U  to update. Be sure to call youtube-dl with the --verbose flag and include its complete output. Traceback (most recent call last):  
+youtube_dl.utils.RegexNotFoundError: Unable to extract Initial JS player n function alias (Usa[0]); please report this issue on https://yt-dl.org/bug 
 
-B-4 youtube_dl.utils.RegexNotFoundError: Unable to extract Initial JS player n function alias (Usa[0]); please report this issue on https://yt-dl.org/bug 
+B-4 ERROR: Signature extraction failed: Traceback (most recent call last):
+  File "D:\a\youtube-dl\youtube-dl\youtube_dl\extractor\youtube.py", line 1586, in _decrypt_signature
+  File "D:\a\youtube-dl\youtube-dl\youtube_dl\extractor\youtube.py", line 1510, in _extract_signature_function
+  File "D:\a\youtube-dl\youtube-dl\youtube_dl\extractor\youtube.py", line 1574, in <lambda>
+  File "D:\a\youtube-dl\youtube-dl\youtube_dl\jsinterp.py", line 36, in __call__
+  File "D:\a\youtube-dl\youtube-dl\youtube_dl\jsinterp.py", line 1037, in resf
+  File "D:\a\youtube-dl\youtube-dl\youtube_dl\jsinterp.py", line 441, in interpret_statement
+  File "D:\a\youtube-dl\youtube-dl\youtube_dl\jsinterp.py", line 915, in interpret_statement
+  File "D:\a\youtube-dl\youtube-dl\youtube_dl\jsinterp.py", line 907, in eval_method
+KeyError: 'QV'
+ (caused by KeyError('QV',)); please report this issue on https://yt-dl.org/bug . 
+
+B-5 ERROR: unable to download video data: HTTP Error 403: Forbidden
+'list' is not recognized as an internal or external command,
+operable program or batch file.
+
 
 **Bug report**
 
