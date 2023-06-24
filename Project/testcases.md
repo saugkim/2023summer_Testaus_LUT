@@ -76,6 +76,14 @@ C:\Users\ugkim\Downloads\OfficialDL>youtube-dl -v --datebefore 20180101 https://
 
 ```
 
+```
+**Ubuntu-server (install patched version)
+xxx@kim:~$ sudo wget https://github.com/ytdl-patched/youtube-dl/releases/download/2023.05.31.43044/youtube-dl -O /usr/local/bin/youtube-dl
+xxx@kim:~$ sudo chmod a+rx /usr/local/bin/youtube-dl
+xxx@kim:~$ sudo ln -s /usr/bin/python3 /usr/bin/python
+```
+
+
 ## Bugs
 
 **List of bugs found**
