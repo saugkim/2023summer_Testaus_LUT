@@ -10,7 +10,7 @@
 |I-1|on Windows 11|
 |I-2|on Ubuntu-server|
 |**Functional**||
-|F-1|Download single video|
+|F-1|Download single video C:\Users\ugkim\Downloads\Patched>youtube-dl -v https://www.youtube.com/watch?v=euq1xlR_cKI|
 |F-2|Download all videos in the playlist|
 |F-3|Rename downloaded video file|
 |F-4|Download to the specific folder|
@@ -27,6 +27,29 @@
 |NF-4|Usability - get help |
 |NF-5|Compatibility - download videos from other than Youtube, other websites: Supported URL test|
 
+```
+Downloading single video from youtube
+C:\Users\ugkim\Downloads\Patched>youtube-dl -v https://www.youtube.com/watch?v=euq1xlR_cKI
+
+Downloading all videos from playlist
+C:\Users\ugkim\Downloads\Patched>youtube-dl -v https://www.youtube.com/playlist?list=PLrJiQiyLS5pYyZs4t1-L8vlMVBQUO50z9
+
+Downloading selected videos from playlist
+C:\Users\ugkim\Downloads\Patched>youtube-dl --playlist-items 2,5,9 https://www.youtube.com/playlist?list=PLrJiQiyLS5pYyZs4t1-L8vlMVBQUO50z9
+
+Custom name for downloading file
+C:\Users\ugkim\Downloads\Patched>youtube-dl -o hello.mp4 -v https://www.youtube.com/watch?v=euq1xlR_cKI
+
+Set file size limit
+C:\Users\ugkim\Downloads\OfficialDL>youtube-dl -v --max-filesize 50M https://officeladies.com/episodes/2023/14/06/episode-168-5-a-look-back-on-fun-run-pt-1
+
+Set downloading speed limit 
+C:\Users\ugkim\Downloads\OfficialDL>youtube-dl -v -r 50K https://officeladies.com/episodes/2023/14/06/episode-168-5-a-look-back-on-fun-run-pt-1
+
+Set date 
+C:\Users\ugkim\Downloads\OfficialDL>youtube-dl -v --datebefore 20180101 https://officeladies.com/episodes/2023/14/06/episode-168-5-a-look-back-on-fun-run-pt-1
+
+```
 
 ## Bugs
 
