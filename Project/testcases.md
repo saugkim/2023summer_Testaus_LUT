@@ -37,7 +37,9 @@ C:\Users\ugkim\Downloads\Patched>youtube-dl -v https://www.youtube.com/playlist?
 Downloading selected videos from playlist
 C:\Users\ugkim\Downloads\Patched>youtube-dl --playlist-items 2,5,9 https://www.youtube.com/playlist?list=PLrJiQiyLS5pYyZs4t1-L8vlMVBQUO50z9
 
-Custom name for downloading file
+Custom name for downloading file - default %(title)s-%(id)s.%(ext)s
+format the target path and name of videos
+youtube-dl -o "$HOME/Videos/%(title)s.%(ext)s" http://www.youtube.com/watch?v=mmm
 C:\Users\ugkim\Downloads\Patched>youtube-dl -o hello.mp4 -v https://www.youtube.com/watch?v=euq1xlR_cKI
 
 Available format for downloading video
