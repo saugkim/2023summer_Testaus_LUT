@@ -196,6 +196,17 @@ Describe what tasks you have carried out and how many points you should get from
    - Why/why not? 
    - What are you expecting from the testing?
 
+https://www.youtube.com/watch?v=GhieVWfkhUo  
+Jun 26, 2020  Software Testing
+
+Test Strategy is a high level document (static document) and usually developed by project manager. It is a document which captures the approach on how we go about testing the product and achieve the goals. It is normally derived from the Business Requirement Specification (BRS). Documents like Test Plan are prepared by keeping this document as base.
+
+Even though testing differs between organizations. Almost all the software development organizations follow Test Strategy document to achieve the goals and to follow the best practice.
+
+A Test Strategy is a plan for defining the approach to the Software Testing Life Cycle (STLC). It guides the QA team to define Test coverage and testing scope. It also aids testers to get a clear picture of the project at any instance. The possibility of missing any test activity is very low when there is a proper test strategy in place.
+
+Test strategy is a guideline to be followed to achieve the test objective and execution of test types mentioned in the testing plan. It deals with test objective, test environment, test approach, automation tools and strategy, contingency plan, and risk analysis.
+
 
 <Group can answer questions like Background (how methods are used), Rationale for selected method and How method was utilized> 
 
