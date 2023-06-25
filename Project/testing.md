@@ -1,8 +1,11 @@
 **about youtube-dl from debian**  
 https://manpages.debian.org/testing/youtube-dl/youtube-dl.1.en.html
 
-**Youtube-dl Tutorial With Examples For Beginners**  
+**youtube-dl Tutorial With Examples For Beginners**  
 https://ostechnix.com/youtube-dl-tutorial-with-examples-for-beginners/
+
+**the list of all the supported sites**  
+https://ytdl-org.github.io/youtube-dl/supportedsites.html
 
 
 tip: download into specific folder
@@ -10,17 +13,13 @@ tip: download into specific folder
 youtube-dl -o '/foldername/%(playlist_title)s/%(playlist_index)s_%(title)s.%(ext)s'
 ```
 
-**the list of all the supported sites**  
-https://ytdl-org.github.io/youtube-dl/supportedsites.html
-
-
 ## Testing OS Windows 
 
 1.Problem when installing process 
 
 **Missing MSVCR100.dll**
 
-<img src="https://github.com/saugkim/2023summer_Testaus_LUT/assets/25344978/fe090d7a-1954-4702-b6df-dbfe3ffc0792" width=350>
+<img src="https://github.com/saugkim/2023summer_Testaus_LUT/assets/25344978/fe090d7a-1954-4702-b6df-dbfe3ffc0792" width=300>
 
 solution -> The exe throws an error due to missing MSVCR100.dll
 
